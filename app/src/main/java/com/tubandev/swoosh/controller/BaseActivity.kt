@@ -1,4 +1,4 @@
-package com.tubandev.swoosh
+package com.tubandev.swoosh.controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
