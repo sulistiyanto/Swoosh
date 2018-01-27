@@ -1,13 +1,18 @@
 package com.tubandev.swoosh
 
+import android.content.Intent
 import android.os.Bundle
-import android.util.Log
+import android.view.View
 
 class LeagueActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_league)
-        Log.d("dsf", "test")
+    }
+
+    fun leagueNextClick(view : View) {
+        val skillIntent = Intent(this, SkillActivity::class.java)
+        startActivity(skillIntent)
     }
 }
